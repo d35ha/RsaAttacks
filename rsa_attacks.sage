@@ -779,5 +779,3 @@ def partial_q_crt(e, c, dp, dq, qinv, part_q):
         n,phi = clc_n_phi(primes)
         d = inverse_mod(e,phi)
         return pow(c,d,n)
-
-# During the ctf look at https://ctf-wiki.github.io/ctf-wiki/crypto/asymmetric/rsa it's awosum
